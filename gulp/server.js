@@ -12,7 +12,6 @@ module.exports = function () {
                 directory: false,
                 middleware: [
                     rewrite([
-                        '^[^\\.]*$ /index.html [L]'
                     ])
                 ]
             },
